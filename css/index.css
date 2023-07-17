@@ -1,0 +1,47 @@
+/* General styling for the body */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    position: relative;
+}
+
+#offlib {
+    text-decoration: underline;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100%;
+    background: rgb(50, 127, 168);
+    color: white;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    /* top: 0%;
+    left: 0%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.goto-button button {
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    height: 50px;
+    font-size: 14px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(50, 127, 168);
+    cursor: pointer;
+}
