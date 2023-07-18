@@ -1,0 +1,63 @@
+/* General styling for the body */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    position: relative;
+    color: rgb(94, 93, 93);
+}
+
+/* Navigation styling */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 0px 10px;
+    box-shadow: 3px 3px 5px lightslategray;
+}
+
+nav img {
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    /* background: unset; */
+    transition: background 0.5s;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+nav ul li:hover {
+    background: rgb(50, 127, 168);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(50, 127, 168);
+}
+
+nav ul li:hover a {
+    color: white;
+}
+
+#fixed-style {
+    background: rgb(50, 127, 168);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+#fixed-style a {
+    color: white;
+}
