@@ -20,6 +20,8 @@ nav {
     background: white;
     padding: 0px 10px;
     box-shadow: 3px 3px 5px lightslategray;
+    position: fixed;
+    top: 0;
 }
 
 nav img {
@@ -33,7 +35,7 @@ nav ul {
 
 nav ul li {
     padding: 10px 20px;
-    /* background: unset; */
+    margin: 0 5px;
     transition: background 0.5s;
     clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 }
